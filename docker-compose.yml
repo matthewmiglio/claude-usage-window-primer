@@ -1,0 +1,6 @@
+services:
+  hi-claude:
+    build: ./hi-claude-container
+    restart: always
+    volumes:
+      - ~/.claude:/root/.claude
